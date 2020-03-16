@@ -62,3 +62,20 @@ Then(/^用户登录成功$/, async function () {
     })
     expect(resp.data.code).to.equal(0)
 });
+When(/^修改密码$/,async  function () {
+    let resp = await axios.post(getUrl('/profile/change_password'),{
+        oldPassword:"123456",
+        newPassword:"123455"
+    },{
+        headers:{
+            'Identity':'123'
+        }
+    })
+});
+Then(/^用户新密码登录成功$/,async  function () {
+    let resp = await axios.post(getUrl('/auth/login'),{
+        loginName:"bobdeng",
+        password:"123455"
+    })
+    expect(resp.data.code).to.equal(0)
+});
