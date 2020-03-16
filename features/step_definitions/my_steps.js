@@ -47,3 +47,18 @@ Then(/^使用管理员登录失败$/, async function () {
     })
     expect(resp.data.code).to.not.equal(0)
 });
+When(/^注册用户$/, async function () {
+    await axios.post(getUrl("/auth/register"),{
+        loginName:"bobdeng",
+        password:"123456",
+        mobile:"18657124116",
+        name:"dzg"
+    })
+});
+Then(/^用户登录成功$/, async function () {
+    let resp = await axios.post(getUrl('/auth/login'),{
+        loginName:"bobdeng",
+        password:"123456"
+    })
+    expect(resp.data.code).to.equal(0)
+});

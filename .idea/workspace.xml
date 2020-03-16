@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2969439-faea-4bc5-9927-255162e2c816" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/features/auth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/auth.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/auth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/admin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/my_steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/my_steps.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584331924985</updated>
-      <workItem from="1584331926266" duration="861000" />
+      <workItem from="1584331926266" duration="1132000" />
     </task>
     <servers />
   </component>
@@ -86,22 +88,22 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834@0.23.1440.834" timestamp="1584332546936" />
-    <state width="1379" height="181" key="GridCell.Tab.0.bottom" timestamp="1584332917089">
+    <state width="1379" height="181" key="GridCell.Tab.0.bottom" timestamp="1584333255278">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1584332917089" />
-    <state width="1379" height="181" key="GridCell.Tab.0.center" timestamp="1584332917089">
+    <state width="1379" height="181" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1584333255278" />
+    <state width="1379" height="181" key="GridCell.Tab.0.center" timestamp="1584333255277">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1584332917089" />
-    <state width="1379" height="181" key="GridCell.Tab.0.left" timestamp="1584332917087">
+    <state width="1379" height="181" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1584333255277" />
+    <state width="1379" height="181" key="GridCell.Tab.0.left" timestamp="1584333255276">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1584332917087" />
-    <state width="1379" height="181" key="GridCell.Tab.0.right" timestamp="1584332917089">
+    <state width="1379" height="181" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1584333255276" />
+    <state width="1379" height="181" key="GridCell.Tab.0.right" timestamp="1584333255277">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1584332917089" />
+    <state width="1379" height="181" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1584333255277" />
     <state x="477" y="361" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584332304725">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
