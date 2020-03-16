@@ -40,3 +40,10 @@ Then(/^使用管理员登录成功$/, async function () {
     })
     expect(resp.data.code).to.equal(0)
 });
+Then(/^使用管理员登录失败$/, async function () {
+    let resp = await axios.post(getUrl('/auth/login'),{
+        loginName:"admin",
+        password:"123456"
+    })
+    expect(resp.data.code).to.not.equal(0)
+});

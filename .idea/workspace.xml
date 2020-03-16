@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2969439-faea-4bc5-9927-255162e2c816" name="Default Changelist" comment="" />
+    <list default="true" id="b2969439-faea-4bc5-9927-255162e2c816" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/features/auth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/auth.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/my_steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/my_steps.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZC8sn6hQEtrFwZKrEx8IM465u2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,9 +24,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_data" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -26,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_data" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -63,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584331924985</updated>
-      <workItem from="1584331926266" duration="479000" />
+      <workItem from="1584331926266" duration="861000" />
     </task>
     <servers />
   </component>
@@ -75,22 +86,22 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834@0.23.1440.834" timestamp="1584332546936" />
-    <state width="1379" height="181" key="GridCell.Tab.0.bottom" timestamp="1584332626624">
+    <state width="1379" height="181" key="GridCell.Tab.0.bottom" timestamp="1584332917089">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1584332626624" />
-    <state width="1379" height="181" key="GridCell.Tab.0.center" timestamp="1584332626623">
+    <state width="1379" height="181" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1584332917089" />
+    <state width="1379" height="181" key="GridCell.Tab.0.center" timestamp="1584332917089">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1584332626623" />
-    <state width="1379" height="181" key="GridCell.Tab.0.left" timestamp="1584332626622">
+    <state width="1379" height="181" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1584332917089" />
+    <state width="1379" height="181" key="GridCell.Tab.0.left" timestamp="1584332917087">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1584332626622" />
-    <state width="1379" height="181" key="GridCell.Tab.0.right" timestamp="1584332626624">
+    <state width="1379" height="181" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1584332917087" />
+    <state width="1379" height="181" key="GridCell.Tab.0.right" timestamp="1584332917089">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1379" height="181" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1584332626624" />
+    <state width="1379" height="181" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1584332917089" />
     <state x="477" y="361" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584332304725">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
