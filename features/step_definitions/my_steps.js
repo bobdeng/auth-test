@@ -1,9 +1,8 @@
-var {Then} = require('cucumber');
-var {When} = require('cucumber');
-var {Given} = require('cucumber');
+const {Then} = require('cucumber');
+const {When} = require('cucumber');
+const {Given} = require('cucumber');
 const {expect} = require("chai");
 const axios = require('axios');
-const util = require('util');
 const FormData = require('form-data');
 const fs = require('fs');
 
@@ -16,8 +15,8 @@ async function importFile(file) {
 }
 
 function getUrl(url) {
-    url = "http://localhost:8080/" + url
-    log(url)
+    url = "http://localhost:8080/" + url;
+    log(url);
     return url;
 }
 
@@ -33,21 +32,21 @@ When(/^初始化管理员$/, async function () {
     await axios.post(getUrl("/auth/init_admin"), {
         loginName: "admin",
         password: "123456"
-    })
+    });
 });
 Then(/^使用管理员登录成功$/, async function () {
     let resp = await axios.post(getUrl('/auth/login'), {
         loginName: "admin",
         password: "123456"
-    })
-    expect(resp.data.code).to.equal(0)
+    });
+    expect(resp.data.code).to.equal(0);
 });
 Then(/^使用管理员登录失败$/, async function () {
     let resp = await axios.post(getUrl('/auth/login'), {
         loginName: "admin",
         password: "123456"
-    })
-    expect(resp.data.code).to.not.equal(0)
+    });
+    expect(resp.data.code).to.not.equal(0);
 });
 When(/^注册用户$/, async function () {
     await axios.post(getUrl("/auth/register"), {
@@ -55,29 +54,29 @@ When(/^注册用户$/, async function () {
         password: "123456",
         mobile: "18657124116",
         name: "dzg"
-    })
+    });
 });
 Then(/^用户登录成功$/, async function () {
     let resp = await axios.post(getUrl('/auth/login'), {
         loginName: "bobdeng",
         password: "123456"
-    })
-    expect(resp.data.code).to.equal(0)
+    });
+    expect(resp.data.code).to.equal(0);
 });
 When(/^修改密码$/, async function () {
-    let resp = await axios.post(getUrl('/profile/change_password'), {
+    await axios.post(getUrl('/profile/change_password'), {
         oldPassword: "123456",
         newPassword: "123455"
     }, {
         headers: {
             'Identity': '123'
         }
-    })
+    });
 });
 Then(/^用户新密码登录成功$/, async function () {
     let resp = await axios.post(getUrl('/auth/login'), {
         loginName: "bobdeng",
         password: "123455"
-    })
-    expect(resp.data.code).to.equal(0)
+    });
+    expect(resp.data.code).to.equal(0);
 });
