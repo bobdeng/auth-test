@@ -8,9 +8,7 @@ const FormData = require('form-data');
 const fs = require('fs');
 
 async function importFile(file) {
-
-
-    var formData = new FormData();
+    const formData = new FormData();
     formData.append("file", fs.createReadStream('./test_data/' + file));
     await axios.post(getUrl('/dbtool/import'), formData, {
         headers: formData.getHeaders()
